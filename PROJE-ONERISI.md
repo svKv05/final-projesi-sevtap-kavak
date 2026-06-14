@@ -12,7 +12,7 @@ Hedef Kullanıcı:
 Öğrenciler ve eğitim kurumları.
 
 Veri Kaynağı:
-Kaggle Student Performance Dataset.
+UCI Machine Learning Repository - Student Performance Dataset.
 
 Teknolojiler:
 Python
