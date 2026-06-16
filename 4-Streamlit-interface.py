@@ -72,12 +72,26 @@ if st.button("Tahmin Et"):
     etkiler["Mutlak Etki"] = etkiler["SHAP Etkisi"].abs()
     etkiler = etkiler.sort_values("Mutlak Etki", ascending = False)
 
-    for _, row in etkiler.iterrows():
-        if row["SHAP Etkisi"] > 0:
-            st.write(f"⬆️** {row['Özellik']} ** tahmini artırdı. Değer: {row['Girilen Değer']}")
-        else:
-            st.write(f"⬇️** {row['Özellik']} ** tahmini azalttı. Değer: {row['Girilen Değer']}")
+    isimler = {
+        "age": "Yaş",
+        "G1": "1. Dönem Notu (G1)",
+        "G2": "2. Dönem Notu (G2)",
+        "absences": "Devamsızlık"
+    }
 
+    for _, row in etkiler.iterrows():
+        isim = isimler.get(row["Özellik"], row["Özellik"])
+        if row["Özellik"] == "absences":
+            if row["Girilen Değer"] > 10:
+                st.write(f"⬇️** {isim} ** yüksek olduğu için risk oluşturdu. Değer: {row['Girilen Değer']}")
+            else:
+                st.write(f"⬆️** {isim} ** düşük olduğu için olumlu etki yaptı. Değer: {row['Girilen Değer']}")
+
+        else:
+            if row["SHAP Etkisi"] > 0:
+                st.write(f"⬆️** {isim} ** tahmini artıran yönde etki etti. Değer: {row['Girilen Değer']}")
+            else:
+                st.write(f"⬇️** {isim} ** tahmini azaltan yönde etki etti. Değer: {row['Girilen Değer']}")
 
 
 
