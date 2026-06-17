@@ -12,12 +12,12 @@ Elde edilen veri seti eğitim ve test verisi olarak ikiye ayrılmıştır. Model
 Son olarak oluşturulan Streamlit arayüzü sayesinde öğrenci bilgilerini girer. Sistem tahmini G3 notunu, risk seviyesini ve çoğunluğu SHAP tabanlı karar açıklamasını gösterir.
 
 KULLANILAN TEKNOLOJİLER:
-Python
-Pandas
-Scikit-learn (Random Forest Regressor)
-SHAP
-Streamlit
-Matplotlib
+- Python
+- Pandas
+- Scikit-learn (Random Forest Regressor)
+- SHAP
+- Streamlit
+- Matplotlib
 
 SİSTEM İŞ AKIŞI:
 1. Veri seti okunur.
@@ -31,11 +31,11 @@ SİSTEM İŞ AKIŞI:
 KURULUM:
 Gerekli kütüphanelerin yüklenmesi beklenir.
 
-pip install pandas
-pip install scikit-learn
-pip install streamlit
-pip install shap
-pip install matplotlib
+- pip install pandas
+- pip install scikit-learn
+- pip install streamlit
+- pip install shap
+- pip install matplotlib
 
 KULLANIM (ÇALIŞTIRMA):
 Terminali proje klasöründe açın ve aşağıdaki komutu çalıştırın.
@@ -56,10 +56,10 @@ TEST SONUÇLARI:
 Uygulama farklı öğrenci senaryoları ile test edilmiştir. Düşük, orta ve yüksek risk durumlarında sistem beklenen şekilde tahmin üretmiş ve SHAP açıklamaları sunmuştur.
 
 GELECEKTE YAPILABİLECEK GELİŞTİRMELER:
-Daha büyük veri seti ile model eğitilebilir.
-Daha fazla öğrenci özelliği arayüze eklenebilir.
-Model çevrimiçi olarak yayınlanabilir.
-Daha detaylı SHAP görselleştirmeleri eklenebilir.
+- Daha büyük veri seti ile model eğitilebilir.
+- Daha fazla öğrenci özelliği arayüze eklenebilir.
+- Model çevrimiçi olarak yayınlanabilir.
+- Daha detaylı SHAP görselleştirmeleri eklenebilir.
 
 VİDEO BAĞLANTISI:
 Video bağlantısı buraya eklenecektir.
