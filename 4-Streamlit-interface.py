@@ -42,7 +42,7 @@ if st.button("Tahmin Et"):
     tahmin = model.predict(veri)[0]
 
     st.success(
-        f"Tahmini G3 Notu: {tahmin:2f}"
+        f"Tahmini G3 Notu: {tahmin:.2f}"
     )
 
     if tahmin < 10:
