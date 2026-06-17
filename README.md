@@ -43,7 +43,14 @@ Terminali proje klasöründe açın ve aşağıdaki komutu çalıştırın.
 python -m streamlit run 4-Streamlit-interface.py
 
 ÖRNEK EKRAN GÖRÜNTÜLERİ:
-Buraya yüksek risk, orta risk ve düşük risk ekran görüntüleri eklenecektir.
+### Yüksek Risk ###
+![Yüksek Risk](yuksek_risk.png)
+
+### Orta Risk ###
+![Orta Risk](orta_risk.png)
+
+### Düşük Risk ###
+![Düşük Risk](dusuk_risk.png)
 
 TEST SONUÇLARI:
 Uygulama farklı öğrenci senaryoları ile test edilmiştir. Düşük, orta ve yüksek risk durumlarında sistem beklenen şekilde tahmin üretmiş ve SHAP açıklamaları sunmuştur.
