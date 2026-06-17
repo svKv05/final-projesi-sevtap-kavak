@@ -62,7 +62,11 @@ GELECEKTE YAPILABİLECEK GELİŞTİRMELER:
 - Daha detaylı SHAP görselleştirmeleri eklenebilir.
 
 VİDEO BAĞLANTISI:
-Video bağlantısı buraya eklenecektir.
+Proje Tanıtım Videosu:
+https://drive.google.com/file/d/1GI_8ndePL-QvR2d_gR7mfFXGoyekjkL5/view?usp=sharing
+
+NOT:
+Bu çalışmanın yapımında ChatGPT'den yararlanılmıştır.
 
 
 
